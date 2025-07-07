@@ -376,7 +376,7 @@ document.addEventListener("DOMContentLoaded", () => {
       pinInput.classList.add("border-red-500");
       pinInput.focus();
 
-      if (failedAttempts >= 3) {
+      if (failedAttempts >= 5) {
         const lockTime = Date.now() + 24 * 60 * 60 * 1000; // 24 jam
         localStorage.setItem("pin_lock_until", lockTime);
         pinInput.disabled = true;
