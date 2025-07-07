@@ -553,11 +553,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const gifSrc = "assets/img/cute-dancing.gif";
 
   const randomSounds = [
-    "assets/audio/meng1.mp3",
-    "assets/audio/meng2.mp3",
-    "assets/audio/meng3.mp3",
-    "assets/audio/meng5.mp3",
-    "assets/audio/meng4.mp3",
+    "assets/audio/meng1.MP3",
+    "assets/audio/meng2.MP3",
+    "assets/audio/meng3.MP3",
+    "assets/audio/meng5.MP3",
+    "assets/audio/meng4.MP3",
   ];
 
   let isPlaying = false;
